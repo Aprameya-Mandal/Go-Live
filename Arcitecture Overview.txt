@@ -1,0 +1,9 @@
+gemini_desktop_assistant/
+│
+├── requirements.txt         # Updated dependencies (added PyQt6, qasync)
+├── gui.py                   # Floating translucent bubble, QSS styling & System Tray
+├── main.py                  # qasync loop orchestrator, wake-word engine & Live API
+├── audio_handler.py         # 16kHz mic, 24kHz speaker & chime feedback
+├── vision.py                # 1 FPS screen capture with mss & Pillow
+├── tools.py                 # Windows automation tools (including "dismiss/hide")
+└── startup_manager.py       # Helper to register silent boot with Windows
